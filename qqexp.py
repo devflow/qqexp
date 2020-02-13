@@ -3,7 +3,7 @@ from os.path import isfile, join, splitext
 from sys import argv, exit
 
 original_header = [71, 72, 70, 57, 57, 96]
-fixed_header = [71, 73, 70, 56, 57, 97]
+fixed_header = [71, 73, 70, 56, 57, 97, 44, 1, 44, 1]
 
 if len(argv) < 2:
     exit("please set target dir path.")
